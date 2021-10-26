@@ -1,6 +1,5 @@
-import Head from "next/head";
-import Image from "next/image";
 import React from "react";
+import Head from "next/head";
 
 import Countdown from "react-countdown";
 import BackIllu from "../components/backIllu";
@@ -20,6 +19,9 @@ const Home = () => {
   const renderer = ({ formatted: { days, hours, minutes, seconds } }) => {
     return (
       <CountContainer>
+        <Head>
+          <title>We&#39;re Launching Soon</title>
+        </Head>
         <CountBox>
           <CountFlexItem>
             <TimerNumb>{days}</TimerNumb>

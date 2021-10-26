@@ -5,6 +5,8 @@ export const Pages = styled.div`
   width: 100vw;
   height: 100vh;
   background-image: ${BackgroundGradient};
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
 
 export const AbsoluteDiv = styled.div`
@@ -20,6 +22,11 @@ export const AbsoluteDiv = styled.div`
   background-position: bottom right;
   background-size: 100em;
   z-index: 20;
+
+  @media (min-width: 1280px) {
+    background-position: bottom center;
+    background-size: contain;
+  }
 `;
 
 export const Title = styled.h1`
@@ -31,6 +38,14 @@ export const Title = styled.h1`
   text-transform: uppercase;
   font-weight: ${font.weight.bold};
   letter-spacing: 0.5em;
+
+  @media (min-width: 1024px) {
+    font-size: 2em;
+  }
+
+  @media (min-width: 1536px) {
+    font-size: 3em;
+  }
 `;
 
 export const Box = styled.div`
