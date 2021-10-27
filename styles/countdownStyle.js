@@ -6,6 +6,14 @@ export const CountContainer = styled.div`
   margin-bottom: 20vh;
   display: flex;
   gap: 1em;
+
+  @media (min-width: 1024px) {
+    gap: 2em;
+  }
+
+  @media (min-width: 1536px) {
+    gap: 2.8em;
+  }
 `;
 
 export const CountFlexItem = styled.div`
@@ -26,11 +34,11 @@ export const CountFlexItem = styled.div`
   }
 
   @media (min-width: 1024px) {
-    height: 200px;
+    height: 150px;
   }
 
   @media (min-width: 1536px) {
-    height: 250px;
+    height: 200px;
   }
 `;
 
@@ -46,11 +54,11 @@ export const CountBox = styled.div`
   }
 
   @media (min-width: 1024px) {
-    width: 200px;
+    width: 150px;
   }
 
   @media (min-width: 1536px) {
-    width: 250px;
+    width: 200px;
   }
 `;
 
@@ -71,11 +79,11 @@ export const TimerNumb = styled.h2`
   }
 
   @media (min-width: 1024px) {
-    font-size: 7em;
+    font-size: 5em;
   }
 
   @media (min-width: 1536px) {
-    font-size: 9em;
+    font-size: 7em;
   }
 `;
 

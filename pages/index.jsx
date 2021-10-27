@@ -21,6 +21,30 @@ const Home = () => {
       <CountContainer>
         <Head>
           <title>We&#39;re Launching Soon</title>
+          <meta name="og:title" content="We're Launching Soon" key="title" />
+          <meta
+            name="description"
+            content="We're Launching Soon"
+            key="description"
+          />
+          <meta name="twitter:title" content="We're Launching Soon" />
+          <meta
+            name="og:description"
+            content="We're Launching Soon"
+            key="og:description"
+          />
+          <meta
+            name="og:image"
+            content="https://res.cloudinary.com/deajg4y52/image/upload/v1635306308/desktop-preview_gglhfb.jpg"
+          />
+          <meta name="og:image:width" content="1200" />
+          <meta name="og:image:height" content="600" />
+          <meta name="og:type" content="website" />
+          <meta name="twitter:description" content="We're Launching Soon" />
+          <meta
+            name="twitter:card"
+            content="https://res.cloudinary.com/deajg4y52/image/upload/v1635306308/desktop-preview_gglhfb.jpg"
+          />
         </Head>
         <CountBox>
           <CountFlexItem>
